@@ -1,0 +1,37 @@
+.avatar-upload {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  line-height: normal;
+}
+.avatar-upload .avatar-show {
+  background: #ededed;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
+.avatar-upload .avatar-show .icon-add {
+  font-size: 30px;
+  color: #b9b9b9;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+}
+.avatar-upload .avatar-show img {
+  width: 100%;
+  height: 100%;
+}
+.avatar-upload .avatar-show .op {
+  position: absolute;
+  color: #0e8aef;
+  top: 80px;
+}
+.avatar-upload .select-btn {
+  vertical-align: bottom;
+  margin-left: 5px;
+}

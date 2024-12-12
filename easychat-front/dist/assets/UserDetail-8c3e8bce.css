@@ -1,0 +1,47 @@
+.user-info[data-v-50c97ce1] {
+  position: relative;
+}
+.user-info .more-op[data-v-50c97ce1] {
+  position: absolute;
+  right: 0px;
+  top: 20px;
+}
+.user-info .more-op .icon-more[data-v-50c97ce1] {
+  color: #9e9e9e;
+}
+.user-info .more-op .icon-more[data-v-50c97ce1]:hover {
+  background: #dddddd;
+}
+.part-item[data-v-50c97ce1] {
+  display: flex;
+  border-bottom: 1px solid #eaeaea;
+  padding: 20px 0px;
+}
+.part-item .part-title[data-v-50c97ce1] {
+  width: 60px;
+  color: #9e9e9e;
+}
+.part-item .part-content[data-v-50c97ce1] {
+  flex: 1;
+  margin-left: 15px;
+  color: #161616;
+}
+.send-message[data-v-50c97ce1] {
+  width: 80px;
+  margin: 0px auto;
+  text-align: center;
+  margin-top: 20px;
+  color: #7d8cac;
+  padding: 5px;
+}
+.send-message .icon-chat2[data-v-50c97ce1] {
+  font-size: 23px;
+}
+.send-message .text[data-v-50c97ce1] {
+  font-size: 12px;
+  margin-top: 5px;
+}
+.send-message[data-v-50c97ce1]:hover {
+  background: #e9e9e9;
+  cursor: pointer;
+}

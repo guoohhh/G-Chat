@@ -1,0 +1,38 @@
+.title-panel[data-v-03e27354] {
+  height: 60px;
+  background: #f7f7f7;
+  text-align: center;
+  line-height: 60px;
+}
+.menu-list[data-v-03e27354] {
+  border-top: 1px solid #ddd;
+}
+.menu-list .menu-item[data-v-03e27354] {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+.menu-list .menu-item[data-v-03e27354]:hover {
+  cursor: pointer;
+  background: #d6d6d7;
+}
+.menu-list .menu-item .iconfont[data-v-03e27354] {
+  font-size: 20px;
+  width: 35px;
+  height: 35px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu-list .menu-item .menu-name[data-v-03e27354] {
+  color: #000000;
+  margin-left: 10px;
+  flex: 1;
+}
+.menu-list .menu-active[data-v-03e27354] {
+  background: #c4c4c4;
+}
+.menu-list .menu-active[data-v-03e27354]:hover {
+  background: #c4c4c4;
+}

@@ -1,0 +1,69 @@
+.email-select[data-v-6a5deefd] {
+  width: 250px;
+}
+.loading-panel[data-v-6a5deefd] {
+  height: calc(100vh - 32px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.loading-panel img[data-v-6a5deefd] {
+  width: 300px;
+}
+.login-panel[data-v-6a5deefd] {
+  background: #fff;
+  border-radius: 3px;
+  border: 1px solid #ddd;
+}
+.login-panel .title[data-v-6a5deefd] {
+  height: 30px;
+  padding: 5px 0px 0px 10px;
+}
+.login-panel .login-form[data-v-6a5deefd] {
+  padding: 0px 15px 29px 15px;
+}
+.login-panel .login-form[data-v-6a5deefd] .el-input__wrapper {
+  box-shadow: none;
+  border-radius: 0;
+}
+.login-panel .login-form .el-form-item[data-v-6a5deefd] {
+  border-bottom: 1px solid #ddd;
+}
+.login-panel .login-form .email-panel[data-v-6a5deefd] {
+  align-items: center;
+  width: 100%;
+  display: flex;
+}
+.login-panel .login-form .email-panel .input[data-v-6a5deefd] {
+  flex: 1;
+}
+.login-panel .login-form .email-panel .icon-down[data-v-6a5deefd] {
+  margin-left: 3px;
+  width: 16px;
+  cursor: pointer;
+  border: none;
+}
+.login-panel .login-form .error-msg[data-v-6a5deefd] {
+  line-height: 30px;
+  height: 30px;
+  color: #fb7373;
+}
+.login-panel .login-form .check-code-panel[data-v-6a5deefd] {
+  display: flex;
+}
+.login-panel .login-form .check-code-panel .check-code[data-v-6a5deefd] {
+  cursor: pointer;
+  width: 120px;
+  margin-left: 5px;
+}
+.login-panel .login-form .login-btn[data-v-6a5deefd] {
+  margin-top: 20px;
+  width: 100%;
+  background: #004d9c;
+  height: 36px;
+  font-size: 16px;
+}
+.login-panel .login-form .bottom-link[data-v-6a5deefd] {
+  text-align: right;
+}

@@ -1,0 +1,15 @@
+.file-manage[data-v-c24fd6d1] .el-form-item__content {
+  display: block;
+}
+.file-manage .file-input[data-v-c24fd6d1] {
+  background: #fff;
+  padding: 0px 5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 16px;
+}
+.file-manage .tips[data-v-c24fd6d1] {
+  color: #888888;
+  font-size: 13px;
+}

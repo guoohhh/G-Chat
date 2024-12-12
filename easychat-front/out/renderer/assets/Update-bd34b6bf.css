@@ -1,0 +1,44 @@
+.file-select[data-v-61d5ef71] {
+  display: flex;
+}
+.file-select .file-name[data-v-61d5ef71] {
+  color: #409eff;
+  margin-right: 10px;
+}
+.updte-form-item[data-v-61d5ef71] {
+  margin-bottom: 0px;
+}
+.updte-form-item .update-desc-item[data-v-61d5ef71] {
+  width: 100%;
+  margin-bottom: 15px;
+}
+.updte-form-item .update-desc-item .update-desc[data-v-61d5ef71] {
+  width: 100%;
+  display: flex;
+}
+.updte-form-item .update-desc-item .update-desc .num[data-v-61d5ef71] {
+  width: 15px;
+  margin-right: 2px;
+}
+.updte-form-item .update-desc-item .update-desc .input[data-v-61d5ef71] {
+  flex: 1;
+}
+.updte-form-item .update-desc-item .update-desc .iconfont[data-v-61d5ef71] {
+  cursor: pointer;
+  margin-left: 10px;
+  text-align: right;
+}
+.btn-del[data-v-61d5ef71] {
+  font-size: 13px;
+  color: red;
+}.tag-panel[data-v-69e5ba90] {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.tag-panel .tag[data-v-69e5ba90] {
+  margin: 0px 5px 5px 0px;
+}
+.tag-panel .input[data-v-69e5ba90] {
+  width: 150px;
+}

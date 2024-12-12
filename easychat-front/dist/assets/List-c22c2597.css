@@ -1,0 +1,167 @@
+
+/* 容器：任务列表 */
+.todo-list[data-v-bafb0346] {
+  width: 94vw;
+  height: 90vh;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+/* 添加任务输入框区域 */
+.add-task[data-v-bafb0346] {
+  display: flex;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+/* 拖拽区域 */
+.drag-panel[data-v-bafb0346] {
+  height: 60px;
+  background: #f7f7f7;
+}
+
+/* 新任务输入框样式 */
+.add-task input[data-v-bafb0346] {
+  flex: 1;
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* 新任务下拉选择框样式 */
+.add-task select[data-v-bafb0346] {
+  margin-right: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* 新任务按钮样式 */
+.add-task button[data-v-bafb0346] {
+  padding: 8px 16px;
+  background-color: #07c160;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* 新任务按钮悬停样式 */
+.add-task button[data-v-bafb0346]:hover {
+  background-color: #06a34f;
+}
+
+/* 任务列容器样式 */
+.task-columns[data-v-bafb0346] {
+  display: flex;
+  justify-content: space-between;
+  overflow-x: auto;
+  max-height: 90vh;
+}
+
+/* 单一任务列样式 */
+.task-column[data-v-bafb0346] {
+  flex: 1;
+  margin-right: 20px;
+  background: #f1f1f1;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow-y: hidden;
+  overflow-x: auto;
+  height: 100%;
+  transition: background-color 0.3s;
+}
+
+/* 拖拽目标高亮样式 */
+.task-column.drag-over[data-v-bafb0346] {
+  background-color: #e0f7fa;
+}
+
+/* 任务列表样式 */
+.task-list[data-v-bafb0346] {
+  list-style-type: none;
+  padding: 0;
+  overflow-y: auto;
+  max-height: calc(100% - 40px);
+}
+
+/* 单一任务项的样式 */
+.task-item[data-v-bafb0346] {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  cursor: grab;
+  transition: background-color 0.3s, opacity 0.3s;
+}
+.task-item.dragging[data-v-bafb0346] {
+  opacity: 0.5;
+}
+.task-item.drop-target[data-v-bafb0346] {
+  border: 2px dashed #ccc;
+  background-color: #fafafa;
+}
+.task-item[data-v-bafb0346]:hover {
+  background-color: #f0f0f0;
+}
+
+/* 任务内容的样式 */
+.task-item span[data-v-bafb0346] {
+  flex: 1;
+  word-wrap: break-word;
+  white-space: nowrap;
+  overflow-x: auto;
+}
+
+/* 删除按钮样式 */
+.task-item button[data-v-bafb0346] {
+  background: transparent;
+  border: none;
+  color: #ff4d4d;
+  cursor: pointer;
+}
+
+/* 删除按钮悬停样式 */
+.task-item button[data-v-bafb0346]:hover {
+  color: #ff0000;
+}
+
+/* 已完成任务的样式 */
+.task-item .completed[data-v-bafb0346] {
+  text-decoration: line-through;
+}
+
+/* 删除按钮单独的样式 */
+.delete-btn[data-v-bafb0346] {
+  padding: 5px 10px;
+  background: transparent;
+  border: none;
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* 删除按钮悬停样式 */
+.delete-btn[data-v-bafb0346]:hover {
+  color: #e53935;
+}
+
+/* 登录提示样式 */
+.login-prompt[data-v-bafb0346] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 20px;
+  color: #555;
+}

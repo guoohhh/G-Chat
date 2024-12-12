@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
+                             http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.easychat</groupId>
+    <artifactId>easychat-frontend</artifactId>
+    <version>1.0</version>
+    <packaging>jar</packaging>
+    <name>easychat-frontend</name>
+    <description>EasyChat Frontend</description>
+
+    <properties>
+        <!-- 移除 'v' 前缀，确保版本格式正确 -->
+        <node.version>16.13.0</node.version>
+        <npm.version>8.1.0</npm.version>
+        <frontend-maven-plugin.version>1.12.1</frontend-maven-plugin.version>
+        <maven-jar-plugin.version>3.2.0</maven-jar-plugin.version>
+    </properties>
+
+    <build>
+        <plugins>
+            <!-- Frontend Maven Plugin 用于构建前端项目 -->
+            <plugin>
+                <groupId>com.github.eirslett</groupId>
+                <artifactId>frontend-maven-plugin</artifactId>
+                <version>${frontend-maven-plugin.version}</version>
+                <executions>
+                    <!-- 安装 Node 和 npm -->
+                    <execution>
+                        <id>install node and npm</id>
+                        <goals>
+                            <goal>install-node-and-npm</goal>
+                        </goals>
+                        <configuration>
+                            <nodeVersion>${node.version}</nodeVersion>
+                            <npmVersion>${npm.version}</npmVersion>
+                        </configuration>
+                    </execution>
+                    <!-- 安装前端依赖 -->
+                    <execution>
+                        <id>npm install</id>
+                        <goals>
+                            <goal>npm</goal>
+                        </goals>
+                        <configuration>
+                            <arguments>install</arguments>
+                        </configuration>
+                    </execution>
+                    <!-- 构建前端项目 -->
+                    <execution>
+                        <id>npm run build</id>
+                        <goals>
+                            <goal>npm</goal>
+                        </goals>
+                        <configuration>
+                            <arguments>run build</arguments>
+                        </configuration>
+                    </execution>
+                </executions>
+                <configuration>
+                    <workingDirectory>./</workingDirectory> <!-- 确保指向正确的目录 -->
+                </configuration>
+            </plugin>
+
+            <!-- Maven Jar Plugin 用于打包静态文件到 JAR -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>${maven-jar-plugin.version}</version>
+                <configuration>
+                    <includes>
+                        <include>dist/**</include>
+                        <include>build/**</include> <!-- 根据 Electron 构建输出调整 -->
+                    </includes>
+                    <outputDirectory>${project.build.directory}</outputDirectory>
+                    <archive>
+                        <manifest>
+                            <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
+                        </manifest>
+                    </archive>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+    <dependencies>
+        <!-- 前端项目通常不需要 Maven 依赖，依赖通过 package.json 管理 -->
+    </dependencies>
+
+</project>

@@ -1,0 +1,42 @@
+.apply-item[data-v-abdb3c0c] {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0px;
+}
+.apply-item .contact-type[data-v-abdb3c0c] {
+  display: flex;
+  justify-content: center;
+  writing-mode: vertical-rl;
+  vertical-align: middle;
+  background: #2cb6fe;
+  color: #fff;
+  border-radius: 5px 0px 0px 5px;
+  height: 50px;
+}
+.apply-item .user-contact[data-v-abdb3c0c] {
+  background: #08bf61;
+}
+.apply-item .contact-info[data-v-abdb3c0c] {
+  width: 260px;
+  margin-left: 10px;
+}
+.apply-item .contact-info .nick-name[data-v-abdb3c0c] {
+  color: #000000;
+}
+.apply-item .contact-info .apply-info[data-v-abdb3c0c] {
+  color: #999999;
+  font-size: 12px;
+  margin-top: 5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.apply-item .op-btn[data-v-abdb3c0c] {
+  width: 50px;
+  text-align: center;
+}
+.apply-item .op-btn .result-name[data-v-abdb3c0c] {
+  color: #999999;
+  font-size: 12px;
+}

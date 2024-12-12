@@ -1,0 +1,15 @@
+.group-info-item[data-v-56f047b9] {
+  display: flex;
+  margin: 15px 0px;
+  align-items: center;
+}
+.group-info-item .group-title[data-v-56f047b9] {
+  width: 100px;
+  text-align: right;
+}
+.group-info-item .group-value[data-v-56f047b9] {
+  flex: 1;
+}
+.notice[data-v-56f047b9] {
+  align-items: flex-start;
+}

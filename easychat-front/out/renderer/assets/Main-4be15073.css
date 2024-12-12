@@ -1,0 +1,61 @@
+.main[data-v-7d42a174] {
+  background: #ddd;
+  display: flex;
+  border-radius: 0px 3px 3px 0px;
+  overflow: hidden;
+}
+.main .left-sider[data-v-7d42a174] {
+  width: 55px;
+  background: #004d9c;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 35px;
+  border: 1px solid #2e2e2e;
+  border-right: none;
+  padding-bottom: 10px;
+}
+.main .left-sider .menu-list[data-v-7d42a174] {
+  width: 100%;
+  flex: 1;
+}
+.main .left-sider .menu-list .tab-item[data-v-7d42a174] {
+  color: #d3d3d3;
+  font-size: 20px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 22px;
+  position: relative;
+}
+.main .left-sider .menu-list .active[data-v-7d42a174] {
+  color: #00083e;
+}
+.main .left-sider .menu-buttom[data-v-7d42a174] {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.main .right-container[data-v-7d42a174] {
+  flex: 1;
+  overflow: hidden;
+  border: 1px solid #ddd;
+  border-left: none;
+}
+.popover-user-panel[data-v-7d42a174] {
+  padding: 10px;
+}
+.popover-user-panel .popover-user[data-v-7d42a174] {
+  display: flex;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20px;
+}
+.popover-user-panel .send-message[data-v-7d42a174] {
+  margin-top: 10px;
+  text-align: center;
+  padding: 20px 0px 0px 0px;
+}
